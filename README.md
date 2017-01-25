@@ -47,18 +47,23 @@ There is a _sync_ folder in _/home/vagrant/projects/_
 
 Just run `vagrant init dpalomar/nodeweb; vagrant up --provider virtualbox`
 
-### Requirements
+### Requirements for local build
 
 You need:
 
 - Virtualbox ([http://www.virtualbox.org](http://www.virtualbox.org))
 - Vagrant ([http://www.vagrantup.com](http://www.vagrantup.com))
 - unix like shell (windows users look for [http://git-scm.com](http://git-scm.com))
+- Git
+
 
 
 ## <a name="4"></a> How to start
 
-
+> If you wants building the image by yourself follow this steps:
+> - git clone https://github.com/dpalomar/vagrant-centos-nodeweb.git
+> - cd vagrant-centos-nodeweb
+> - vagrant up
 
 1. Be sure that image is running
 2. Run `vagrant ssh`
