@@ -45,7 +45,7 @@ There is a _sync_ folder in _/home/vagrant/projects/_
 
 ## <a name="3"></a> Installation and running
 
-Just run `vagrant init dpalomar/nodeweb; vagrant up --provider virtualbox`
+Just run `vagrant init dpalomar/centosNode; vagrant up --provider virtualbox`
 
 ### Requirements for local build
 
